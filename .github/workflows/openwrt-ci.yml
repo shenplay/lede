@@ -88,6 +88,10 @@ jobs:
           CONFIG_PACKAGE_kmod-usb2=y
           CONFIG_PACKAGE_kmod-usb2-pci=y
           CONFIG_PACKAGE_kmod-usb3=y
+          CONFIG_PACKAGE_shadowsocks-libev=y
+          CONFIG_PACKAGE_luci-app-shadowsocks=y
+          CONFIG_PACKAGE_ChinaDNS=y
+          CONFIG_PACKAGE_luci-app-chinadns=y
           EOF 
           # 取消编译VMware镜像及插件:                   
           cat >> .config <<EOF 
